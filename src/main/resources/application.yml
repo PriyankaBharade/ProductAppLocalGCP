@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#      base-path: /manage
+        
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health, bean, info
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        exclude: health, bean, info
+
+#  endpoint:
+#    shutdown:
+#      enabled: true
+server:
+  port: 8000
