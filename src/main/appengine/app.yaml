@@ -1,6 +1,5 @@
 runtime: java11
 instance_class: F1
-env: flex
 
 handlers:
   - url: /.*
